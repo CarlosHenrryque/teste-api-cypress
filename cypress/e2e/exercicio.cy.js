@@ -54,7 +54,6 @@ describe('Testes da Funcionalidade Usuários', () => {
 
      it('Deve editar um usuário previamente cadastrado', () => {
           cy.request('usuarios').then(response => {
-               ///cy.log(response.body.produtos[0]._id)
                let id = response.body.usuarios[1]._id
                cy.request({
                    method: 'PUT',
