@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 describe('Login - Testes de API ServRest', () => {
 
-  it('Deve fazer login com sucesso', () => {
+  it.only('Deve fazer login com sucesso', () => {
     cy.request({
       method: 'POST',
       url: 'login',
