@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar repositório') {
         steps {
-          git branch: 'main', url: 'https://github.com/CarlosHenrryque/teste-ebac-cypress.git'
+          git branch: 'main', url: 'https://github.com/CarlosHenrryque/teste-api-cypress.git'
             }
         }
 
